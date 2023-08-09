@@ -1,13 +1,54 @@
-p { color: pink; }
-
 @font-face {
     font-family: 'Nanum Pen Script';
-    src: url('NanumPenScript-Regular.ttf') format('truetype');
+    src: url('assets/fonts/NanumPenScript-Regular.ttf') format('truetype');
 }
-  
-.custom-font {
+
+@font-face {
+    font-family: 'Quicksand';
+    src: url('assets/fonts/Quicksand.ttf') format('truetype');
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p { 
+    font-family: 'Quicksand';
+    font-size: 8px;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Nanum Pen Script';
-    font-size: 14px;
+    font-size: 25px;
     line-height: 1.5;
+    color: black; 
 }
-  
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px; 
+    background: linear-gradient(to bottom right, #FFD1DC, #FFB6C1, #FF9CB4, #FFA78E, #FFD17F, #C6E06F, #9ACD66);
+    text-align: center;
+}
+
+.rounded-button {
+    font-family: 'Quicksand';
+    display: inline-block;
+    padding: 3px 7px;
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 1px solid black;
+    cursor: pointer;
+}
