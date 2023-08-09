@@ -1,1 +1,13 @@
 p { color: pink; }
+
+@font-face {
+    font-family: 'Nanum Pen Script';
+    src: url('NanumPenScript-Regular.ttf') format('truetype');
+}
+  
+.custom-font {
+    font-family: 'Nanum Pen Script';
+    font-size: 14px;
+    line-height: 1.5;
+}
+  
